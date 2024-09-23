@@ -1,0 +1,36 @@
+body{
+    color: aliceblue;
+    background-color: rgb(16, 20, 36);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#content{
+    width: 70%;
+    position: absolute;
+    left: calc(15%);
+    background-color: rgb(39, 48, 66);
+    border-radius: 2em;
+    margin: 1em;
+    text-align: center;
+}
+.color-text{
+    color: rgb(53, 141, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.color-text:hover{
+    text-decoration: underline;
+    color: brown;
+    font-size: 1.2em;
+}
+p{
+    margin: 5px;
+}
+.img{
+    border-radius: 2em;
+    width: 256px;
+    transition: 0.5s;
+}
+.img:hover{
+    width: 300px;
+}
